@@ -11,12 +11,12 @@ const About = () => {
 
         {/* Título */}
         <div>
-          <h2 className="text-white text-2xl font-poppins font-bold mx-5 my-2">
+          <h2 className="text-white text-2xl md:text-4xl font-poppins font-bold mx-5 my-2">
             Hi, I'm João Pedro Web and Mobile Developer
           </h2>
           {/* Texto */}
           <div className="bg-white text-black text-left font-roboto mx-5 my-2 p-5 rounded-lg shadow-lg">
-            <p className="mx-1 my-1">
+            <p className="mx-1 my-1 text-base md:text-2xl">
               Professionally connected with the development industry.
               <br />
               <br />

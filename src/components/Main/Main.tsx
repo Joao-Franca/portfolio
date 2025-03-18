@@ -26,6 +26,7 @@ const Main = () => {
           PROJECTS <img src={arrow} alt="arrow" className="h-5 w-5" />
         </button>
 
+        {/* Ícones Sociais Animados */}
         <ul className="flex space-x-4 mt-6 relative z-20">
           <li>
             <a
@@ -36,7 +37,7 @@ const Main = () => {
               <img
                 src={linkedin}
                 alt="LinkedIn"
-                className="w-10 h-10 hover:opacity-75 transition duration-200"
+                className="w-10 h-10 icon-animated"
               />
             </a>
           </li>
@@ -49,7 +50,7 @@ const Main = () => {
               <img
                 src={github}
                 alt="GitHub"
-                className="w-10 h-10 hover:opacity-75 transition duration-200"
+                className="w-10 h-10 icon-animated"
               />
             </a>
           </li>
