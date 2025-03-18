@@ -9,9 +9,20 @@ function App() {
   return (
     <div className="bg-black fixed overflow-x-hidden  h-full m-0 p-0">
       <Header />
-      <Main />
-      <About />
-      <Skills />
+      {/* Seção Principal */}
+      <section id="home">
+        <Main />
+      </section>
+
+      {/* Seção Sobre Mim */}
+      <section id="about">
+        <About />
+      </section>
+
+      {/* Seção Habilidades */}
+      <section id="skills">
+        <Skills />
+      </section>
    </div>
   )
 }

@@ -1,9 +1,6 @@
 import "../../App.css";
 import Marca from "/Marca.svg";
 
-
-
-
 const Header = () => {
   return (
     <div>
@@ -34,40 +31,28 @@ const Header = () => {
               </svg>
             </div>
 
-            {/* Dropdown Menu */}
+            {/* Dropdown Menu - Mobile */}
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-gray-950 rounded-md z-10 mt-3 w-52 p-2 shadow transition duration-200"
             >
               <li>
-                <a
-                  href="#"
-                  className=" hover:bg-gray-800 transition duration-200 p-2 rounded"
-                >
+                <a href="#home" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
                   HOME
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className=" hover:bg-gray-800 transition duration-200 p-2 rounded"
-                >
+                <a href="#about" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
                   ABOUT ME
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className=" hover:bg-gray-800 transition duration-200 p-2 rounded"
-                >
-                  PROJECTS
+                <a href="#skills" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+                  SKILLS
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className=" hover:bg-gray-800 transition duration-200 p-2 rounded"
-                >
+                <a href="#contact" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
                   CONTACT
                 </a>
               </li>
@@ -82,34 +67,22 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-white">
             <li>
-              <a
-                href="#"
-                className="hover:bg-gray-800 transition duration-200 p-2 rounded"
-              >
+              <a href="#home" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
                 HOME
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="hover:bg-gray-800 transition duration-200 p-2 rounded"
-              >
+              <a href="#about" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
                 ABOUT ME
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="hover:bg-gray-800 transition duration-200 p-2 rounded"
-              >
-                PROJECTS
+              <a href="#skills" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+                SKILLS
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="hover:bg-gray-800 transition duration-200 p-2 rounded"
-              >
+              <a href="#contact" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
                 CONTACT
               </a>
             </li>
@@ -118,6 +91,6 @@ const Header = () => {
       </div>
     </div>
   );
-}                   
+};
 
 export default Header;
