@@ -8,7 +8,7 @@ const Main = () => {
   const lines = ["Front-End", "Back-End", "Developer"];
 
   return (
-    <div className="bg-black flex flex-col items-center justify-center w-screen relative pt-24">
+    <div className="bg-black flex flex-col items-center justify-center w-screen h-screen relative pt-24">
       <BackgroundLines className="inset-0 flex flex-col items-center justify-center text-center">
         
         {/* Texto animado com letras separadas */}
