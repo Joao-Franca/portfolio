@@ -12,10 +12,10 @@ export function Contact() {
 
     emailjs
       .sendForm(
-        "service_dg4odwa", // service_id
-        "template_ch3le7r", // template_id
+        import.meta.env.VITE_EMAILJS_SERVICE_ID!, // service_id from .env
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID!, // template_id from .env
         formRef.current,
-        "1p3-wscsEpv9WAbFg" // EmailJS
+        import.meta.env.VITE_EMAILJS_USER_ID! // user_id from .env
       )
       .then(
         () => {
@@ -65,7 +65,7 @@ export function Contact() {
           Submit
         </button>
         {statusMessage && (
-          <p className="text-green-400 text-sm">{statusMessage}</p>
+          <p className="text-white text-sm text-center font-roboto ">{statusMessage}</p>
         )}
       </form>
     </div>

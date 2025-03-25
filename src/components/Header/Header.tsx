@@ -37,27 +37,27 @@ const Header = () => {
               className="menu menu-sm dropdown-content bg-gray-950 rounded-md z-10 mt-3 w-52 p-2 shadow transition duration-200"
             >
               <li>
-                <a href="#home" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+                <a href="#home" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                   HOME
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+                <a href="#about" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                   ABOUT ME
                 </a>
               </li>
               <li>
-                <a href="#skills" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+                <a href="#skills" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                   SKILLS
                 </a>
               </li>
               <li>
-                <a href="#projects" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+                <a href="#projects" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                   PROJECTS
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+                <a href="#contact" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                   CONTACT
                 </a>
               </li>
@@ -72,27 +72,27 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-white">
             <li>
-              <a href="#home" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+              <a href="#home" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                 HOME
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+              <a href="#about" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                 ABOUT ME
               </a>
             </li>
             <li>
-              <a href="#skills" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+              <a href="#skills" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                 SKILLS
               </a>
             </li>
             <li>
-              <a href="#projects" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+              <a href="#projects" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                 PROJECTS
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+              <a href="#contact" className="hover:bg-gray-800 transition duration-200 p-2 rounded font-roboto">
                 CONTACT
               </a>
             </li>

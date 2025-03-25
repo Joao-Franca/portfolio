@@ -16,7 +16,7 @@ const About = () => {
           </h2>
           {/* Texto */}
           <div className="bg-white text-black text-left font-roboto mx-5 my-2 p-5 rounded-lg shadow-lg">
-            <p className="mx-1 my-1 text-base md:text-2xl">
+            <p className="mx-1 my-1 text-base md:text-2xl font-roboto">
               Professionally connected with the development industry.
               <br />
               <br />
