@@ -15,7 +15,7 @@ function Projects () {
       title: "VirtuaFab",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 font-roboto">
+          <p className="text-black dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 font-roboto">
             VirtuaFab is an augmented reality software developed for industrial machine monitoring, providing an interactive and detailed view of the machine components. Presented at the Grand Prix SENAI 2024 with the theme Industry 4.0, the project won 1st place in Latin America.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -63,7 +63,7 @@ function Projects () {
       title: "Aeroswift",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 font-roboto">
+          <p className="text-black dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 font-roboto">
             Aeroswift is a software for scheduling drone applications, where you can register a farm in the system and schedule the applications, improving the management of these tasks by defining the time, location, and method of application.
           </p>
           <div className="grid grid-cols-2 gap-4">
