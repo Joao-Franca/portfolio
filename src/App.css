@@ -26,6 +26,14 @@
   border: solid 1px #809de9 !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Garantir que o html e o body ocupem 100% da altura da tela */
+html, body {
+  height: 100%;
+}
 
 
 @keyframes wave-fade-letter {

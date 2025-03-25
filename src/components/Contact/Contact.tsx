@@ -12,26 +12,26 @@ export function Contact() {
 
     emailjs
       .sendForm(
-        "service_dg4odwa", // seu service_id
-        "template_ch3le7r", // seu template_id
+        "service_dg4odwa", // service_id
+        "template_ch3le7r", // template_id
         formRef.current,
-        "1p3-wscsEpv9WAbFg" // sua public key da EmailJS
+        "1p3-wscsEpv9WAbFg" // EmailJS
       )
       .then(
         () => {
-          setStatusMessage("Mensagem enviada com sucesso!");
+          setStatusMessage("Message sent successfully!");
           formRef.current?.reset();
         },
         (error) => {
           console.error(error);
-          setStatusMessage("Erro ao enviar mensagem. Tente novamente.");
+          setStatusMessage("Error sending message. Please try again.");
         }
       );
   };
 
   return (
     <div className="w-full h-screen bg-black flex flex-col items-center justify-center px-4">
-      <h1 className="text-4xl text-white md:text-7xl mb-8 text-center">Contact</h1>
+      <h1 className="text-4xl text-white font-poppins font-bold md:text-7xl mb-8 text-center">Contact</h1>
   
       <form
         ref={formRef}
@@ -62,7 +62,7 @@ export function Contact() {
           type="submit"
           className="bg-[#809DE9] hover:bg-[#5781EE] text-white font-semibold p-2 rounded transition-colors"
         >
-          Enviar
+          Submit
         </button>
         {statusMessage && (
           <p className="text-green-400 text-sm">{statusMessage}</p>

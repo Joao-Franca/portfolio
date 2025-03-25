@@ -8,6 +8,9 @@ import Aeroswift from "../../assets/Aeroswift.svg";
 import Aeroswift_Login from "../../assets/Aeroswift_Login.svg"; 
 import Aeroswift_Home from "../../assets/Aeroswift_Home.svg";
 import Aeroswift_4 from "../../assets/Aeroswift_4.svg";
+// import { useRef, useState } from "react";
+// import emailjs from "@emailjs/browser";
+
 
 
 function Projects (){
@@ -93,8 +96,9 @@ function Projects (){
       ),
     },
   ];
+
   return (
-    <div className="w-full h-screen">
+    <div className="grid grid-rows-[1fr] min-h-screen w-full bg-white dark:bg-neutral-950 font-sans md:px-10 md:pt-20">
       <Timeline data={data} />
     </div>
   );

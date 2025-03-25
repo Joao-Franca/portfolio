@@ -5,6 +5,8 @@ import Main from './components/Main/Main'
 import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
+import Copyright from './Copyright/Copyright'
+
 
 
 function App() {
@@ -33,12 +35,14 @@ function App() {
         <Projects />
       </section>
 
-      <div className="h-[500px] md:h-[1000px]" /> espaço entre seções
-
-     {/* Seção Projetos */}
+     {/*Seção Projetos */}
      <section id="contact">
         <Contact />
       </section>
+
+    
+    <Copyright />
+      
     
    </div>
 

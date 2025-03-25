@@ -22,9 +22,12 @@ const Main = () => {
           ))}
         </h2>
 
-        <button className="button-projects mt-6 px-5 py-2 bg-transparent border border-white text-white font-poppins rounded-lg inline-flex gap-x-2 items-center hover:bg-white hover:text-black transition duration-200">
-          PROJECTS <img src={arrow} alt="arrow" className="h-5 w-5" />
-        </button>
+        {/* Botão de seta para baixo */}
+        <a href="#projects"
+        className="mt-6 px-5 py-2 bg-transparent border border-[#809DE9] text-[#809DE9] font-poppins rounded-lg inline-flex gap-x-2 items-center z-50"
+        >
+        PROJECTS <img src={arrow} alt="arrow" className="h-5 w-5" />
+      </a>
 
         {/* Ícones Sociais Animados */}
         <ul className="flex space-x-4 mt-6 relative z-20">

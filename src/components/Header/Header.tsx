@@ -52,6 +52,11 @@ const Header = () => {
                 </a>
               </li>
               <li>
+                <a href="#projects" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+                  PROJECTS
+                </a>
+              </li>
+              <li>
                 <a href="#contact" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
                   CONTACT
                 </a>
@@ -79,6 +84,11 @@ const Header = () => {
             <li>
               <a href="#skills" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
                 SKILLS
+              </a>
+            </li>
+            <li>
+              <a href="#projects" className="hover:bg-gray-800 transition duration-200 p-2 rounded">
+                PROJECTS
               </a>
             </li>
             <li>

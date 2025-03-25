@@ -40,9 +40,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <h2 className="text-4xl text-center font-poppins font-bold md:text-7xl mb-4 text-[#809DE9] dark:text-white max-w-4xl">
         Projects
       </h2>
-        <p className="text-neutral-700 text-center font-roboto dark:text-neutral-300 text-base md:text-2xl ">
-        I have built various different projects to fit different aspects of the client's business. If you want to see more examples of my work than the ones showcased in this site, please <span className="text-[#809DE9]">contact me!</span>
-      </p>
+      <p className="text-neutral-700 text-center font-roboto dark:text-neutral-300 text-base md:text-2xl">
+      I have built various different projects to fit different aspects of the client's business. If you want to see more examples of my work than the ones showcased in this site, please{" "}
+      <a href="#contact" className="text-[#809DE9]">
+      contact me!
+      </a>
+</p>
     </div>
 
 
@@ -80,7 +83,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
+            className="h-screen inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
       </div>
