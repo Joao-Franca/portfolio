@@ -10,7 +10,7 @@ import Figma from '../../assets/figma.svg';
 import Sql from '../../assets/sql.svg';
 import Git from '../../assets/git.svg';
 import Boot from '../../assets/boot.svg';
-import PowerBI from '../../assets/PowerBi.svg';
+import Powerbi from '../../assets/Powerbi.svg';
 
 const Skills = () => {
     return (
@@ -36,7 +36,7 @@ const Skills = () => {
 
             {/* Ícones das Skills */}
             <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
-                {[Javascript, ReactIcon, Nodejs, Html, Css, Tailwind, Java, Figma, Sql, Git, Boot, PowerBI].map((icon, index) => (
+                {[Javascript, ReactIcon, Nodejs, Html, Css, Tailwind, Java, Figma, Sql, Git, Boot, Powerbi ].map((icon, index) => (
                     <img
                         key={index}
                         src={icon}
